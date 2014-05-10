@@ -1,0 +1,24 @@
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText 
+        android:id="@+id/newTask"
+        android:hint="@string/hintText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />    
+    <Button 
+        android:id="@+id/createTaskButton"
+        android:text="@string/createTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <fragment 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listFragment"
+        android:name="com.subtlecreation.arrayadapter.PlaceholderFragment"
+        />
+</LinearLayout>
